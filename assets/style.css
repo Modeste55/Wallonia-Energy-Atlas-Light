@@ -1,0 +1,96 @@
+/* ==========================================================
+   WALLONIA ENERGY ATLAS LIGHT
+   NATURE SUSTAINABILITY STYLE
+   ========================================================== */
+
+body {
+
+    background-color: #ffffff;
+    font-family: "Arial", sans-serif;
+
+}
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+h1 {
+
+    color: #1a1a1a;
+    font-weight: 700;
+
+}
+
+h2,
+h3,
+h4 {
+
+    color: #2c3e50;
+    font-weight: 600;
+
+}
+
+/* ==========================================================
+   DROPDOWNS
+   ========================================================== */
+
+.Select-control {
+
+    border-radius: 8px !important;
+
+}
+
+.Select-menu-outer {
+
+    z-index: 9999;
+
+}
+
+/* ==========================================================
+   STATISTICS PANEL
+   ========================================================== */
+
+#stats-panel {
+
+    background-color: #f8f9fa;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    box-shadow:
+        0px 2px 8px rgba(0,0,0,0.08);
+
+}
+
+#stats-panel p {
+
+    font-size: 18px;
+
+    margin-bottom: 8px;
+
+}
+
+/* ==========================================================
+   GRAPH CONTAINER
+   ========================================================== */
+
+.js-plotly-plot {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media screen and (max-width: 1200px) {
+
+    .row {
+
+        display: block !important;
+
+    }
+
+}

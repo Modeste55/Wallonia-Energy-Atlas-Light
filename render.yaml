@@ -1,0 +1,12 @@
+services:
+  - type: web
+
+    name: wallonia-energy-atlas-light
+
+    env: python
+
+    buildCommand: pip install -r requirements.txt
+
+    startCommand: gunicorn app:server
+
+    plan: free
